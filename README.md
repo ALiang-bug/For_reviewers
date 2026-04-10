@@ -136,6 +136,127 @@ Below is the detailed quantitative comparison.
 <table style="width:85%; table-layout:fixed; border-collapse:collapse;">
   <thead>
     <tr>
+      <th rowspan="2" style="width:6%; text-align:center;">Models</th>
+      <th colspan="3" style="width:14%; text-align:center;">Twitter</th>
+      <th colspan="3" style="width:14%; text-align:center;">Douban</th>
+      <th colspan="3" style="width:14%; text-align:center;">Memetracker</th>
+      <th colspan="3" style="width:14%; text-align:center;">Android</th>
+      <th colspan="3" style="width:14%; text-align:center;">Christianity</th>
+    </tr>
+    <tr>
+      <th style="width:4%; text-align:center;">MAP@10</th>
+      <th style="width:4%; text-align:center;">MAP@50</th>
+      <th style="width:4%; text-align:center;">MAP@100</th>
+      <th style="width:4%; text-align:center;">MAP@10</th>
+      <th style="width:4%; text-align:center;">MAP@50</th>
+      <th style="width:4%; text-align:center;">MAP@100</th>
+      <th style="width:4%; text-align:center;">MAP@10</th>
+      <th style="width:4%; text-align:center;">MAP@50</th>
+      <th style="width:4%; text-align:center;">MAP@100</th>
+      <th style="width:4%; text-align:center;">MAP@10</th>
+      <th style="width:4%; text-align:center;">MAP@50</th>
+      <th style="width:4%; text-align:center;">MAP@100</th>
+      <th style="width:4%; text-align:center;">MAP@10</th>
+      <th style="width:4%; text-align:center;">MAP@50</th>
+      <th style="width:4%; text-align:center;">MAP@100</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="left">Topo-LSTM</td>
+      <td align="center">0.0951</td><td align="center">0.1368</td><td align="center">0.1468</td>
+      <td align="center">0.0667</td><td align="center">0.0763</td><td align="center">0.0788</td>
+      <td align="center">0.0623</td><td align="center">0.0675</td><td align="center">0.0698</td>
+      <td align="center">0.0360</td><td align="center">0.0405</td><td align="center">0.0406</td>
+      <td align="center">0.0793</td><td align="center">0.0867</td><td align="center">0.0986</td>
+    </tr>
+    <tr>
+      <td align="left">NDM</td>
+      <td align="center">0.1224</td><td align="center">0.1250</td><td align="center">0.1266</td>
+      <td align="center">0.0339</td><td align="center">0.0372</td><td align="center">0.0379</td>
+      <td align="center">0.1059</td><td align="center">0.1131</td><td align="center">0.1144</td>
+      <td align="center">0.0201</td><td align="center">0.0222</td><td align="center">0.0293</td>
+      <td align="center">0.0741</td><td align="center">0.0768</td><td align="center">0.0786</td>
+    </tr>
+    <tr>
+      <td align="left">FOREST</td>
+      <td align="center">0.1681</td><td align="center">0.1736</td><td align="center">0.1742</td>
+      <td align="center">0.0841</td><td align="center">0.1073</td><td align="center">0.1077</td>
+      <td align="center">0.1492</td><td align="center">0.1582</td><td align="center">0.1601</td>
+      <td align="center">0.0583</td><td align="center">0.0617</td><td align="center">0.0626</td>
+      <td align="center">0.1464</td><td align="center">0.1545</td><td align="center">0.1558</td>
+    </tr>
+    <tr>
+      <td align="left">Inf-VAE</td>
+      <td align="center">0.1983</td><td align="center">0.2068</td><td align="center">0.2182</td>
+      <td align="center">0.0732</td><td align="center">0.0798</td><td align="center">0.0803</td>
+      <td align="center">0.1345</td><td align="center">0.1379</td><td align="center">0.1446</td>
+      <td align="center">0.0482</td><td align="center">0.0486</td><td align="center">0.0527</td>
+      <td align="center">0.0925</td><td align="center">0.1196</td><td align="center">0.1245</td>
+    </tr>
+    <tr>
+      <td align="left">DyHGCN</td>
+      <td align="center">0.1795</td><td align="center">0.1842</td><td align="center">0.1896</td>
+      <td align="center">0.0956</td><td align="center">0.0998</td><td align="center">0.1034</td>
+      <td align="center">0.1532</td><td align="center">0.1635</td><td align="center">0.1652</td>
+      <td align="center">0.0379</td><td align="center">0.0420</td><td align="center">0.0431</td>
+      <td align="center">0.1556</td><td align="center">0.1630</td><td align="center">0.1664</td>
+    </tr>
+    <tr>
+      <td align="left">MS-HGAT</td>
+      <td align="center">0.1892</td><td align="center">0.1966</td><td align="center">0.1980</td>
+      <td align="center">0.1024</td><td align="center">0.1078</td><td align="center">0.1103</td>
+      <td align="center">0.1506</td><td align="center">0.1597</td><td align="center">0.1628</td>
+      <td align="center">0.0634</td><td align="center">0.0672</td><td align="center">0.0682</td>
+      <td align="center">0.1726</td><td align="center">0.1808</td><td align="center">0.1819</td>
+    </tr>
+    <tr>
+      <td align="left">RotDiff</td>
+      <td align="center">0.2241</td><td align="center">0.2318</td><td align="center">0.2232</td>
+      <td align="center">0.1098</td><td align="center">0.1154</td><td align="center">0.1173</td>
+      <td align="center">0.1524</td><td align="center">0.1621</td><td align="center">0.1637</td>
+      <td align="center"><u>0.0659</u></td><td align="center"><u>0.0709</u></td><td align="center"><u>0.0721</u></td>
+      <td align="center">0.1904</td><td align="center">0.1989</td><td align="center">0.2006</td>
+    </tr>
+    <tr>
+      <td align="left">MIM</td>
+      <td align="center">0.2376</td><td align="center">0.2447</td><td align="center">0.2482</td>
+      <td align="center">0.1041</td><td align="center">0.1113</td><td align="center">0.1124</td>
+      <td align="center">0.1568</td><td align="center">0.1678</td><td align="center">0.1693</td>
+      <td align="center">0.0629</td><td align="center">0.0669</td><td align="center">0.0679</td>
+      <td align="center"><u>0.1974</u></td><td align="center"><u>0.2070</u></td><td align="center"><u>0.2082</u></td>
+    </tr>
+    <tr>
+      <td align="left">SDVD</td>
+      <td align="center"><u>0.2485</u></td><td align="center"><u>0.2563</u></td><td align="center"><u>0.2576</u></td>
+      <td align="center"><strong>0.1254</strong></td><td align="center"><strong>0.1325</strong></td><td align="center"><strong>0.1336</strong></td>
+      <td align="center">0.1622</td><td align="center">0.1723</td><td align="center">0.1738</td>
+      <td align="center"><strong>0.0699</strong></td><td align="center"><strong>0.0744</strong></td><td align="center"><strong>0.0756</strong></td>
+      <td align="center"><strong>0.1975</strong></td><td align="center"><strong>0.2072</strong></td><td align="center"><strong>0.2089</strong></td>
+    </tr>
+    <tr>
+      <td align="left">Metacas</td>
+      <td align="center"><strong>0.2523</strong></td><td align="center"><strong>0.2598</strong></td><td align="center"><strong>0.2614</strong></td>
+      <td align="center">0.1047</td><td align="center">0.1113</td><td align="center">0.1124</td>
+      <td align="center"><strong>0.1701</strong></td><td align="center"><strong>0.1783</strong></td><td align="center"><strong>0.1798</strong></td>
+      <td align="center">0.0612</td><td align="center">0.0668</td><td align="center">0.0687</td>
+      <td align="center">0.1905</td><td align="center">0.1999</td><td align="center">0.2012</td>
+    </tr>
+    <tr style="background-color: #f6f8fa;">
+      <td align="left"><strong>Ours</strong></td>
+      <td align="center">0.2444</td><td align="center">0.2509</td><td align="center">0.2533</td>
+      <td align="center"><u>0.1104</u></td><td align="center"><u>0.1182</u></td><td align="center"><u>0.1200</u></td>
+      <td align="center"><u>0.1642</u></td><td align="center"><u>0.1734</u></td><td align="center"><u>0.1753</u></td>
+      <td align="center">0.0630</td><td align="center">0.0672</td><td align="center">0.0685</td>
+      <td align="center">0.1826</td><td align="center">0.1938</td><td align="center">0.1974</td>
+    </tr>
+  </tbody>
+</table>
+
+
+<table style="width:85%; table-layout:fixed; border-collapse:collapse;">
+  <thead>
+    <tr>
       <th rowspan="2" align="center" style="width:10%;">Models</th>
       <th colspan="3" align="center" style="width:15%;">Twitter</th>
       <th colspan="3" align="center" style="width:15%;">Douban</th>
@@ -162,7 +283,7 @@ Below is the detailed quantitative comparison.
     </tr>
   </thead>
   <tbody>
-        <tr>
+    <tr>
       <td align="left">Topo-LSTM</td>
       <td align="center">0.0951</td><td align="center">0.1368</td><td align="center">0.1468</td>
       <td align="center">0.0667</td><td align="center">0.0763</td><td align="center">0.0788</td>
