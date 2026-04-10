@@ -17,28 +17,28 @@ Below is the detailed quantitative comparison.
   <thead>
     <tr>
       <th rowspan="2" style="width:6%; text-align:center;">Models</th>
-      <th colspan="3" style="width:14%; text-align:center;">Twitter</th>
-      <th colspan="3" style="width:14%; text-align:center;">Douban</th>
-      <th colspan="3" style="width:14%; text-align:center;">Memetracker</th>
-      <th colspan="3" style="width:14%; text-align:center;">Android</th>
-      <th colspan="3" style="width:14%; text-align:center;">Christianity</th>
+      <th colspan="3" style="text-align:center;">Twitter</th>
+      <th colspan="3" style="text-align:center;">Douban</th>
+      <th colspan="3" style="text-align:center;">Memetracker</th>
+      <th colspan="3" style="text-align:center;">Android</th>
+      <th colspan="3" style="text-align:center;">Christianity</th>
     </tr>
     <tr>
-      <th style="width:4%; text-align:center;">Hits@10</th>
-      <th style="width:4%; text-align:center;">Hits@50</th>
-      <th style="width:4%; text-align:center;">Hits@100</th>
-      <th style="width:4%; text-align:center;">Hits@10</th>
-      <th style="width:4%; text-align:center;">Hits@50</th>
-      <th style="width:4%; text-align:center;">Hits@100</th>
-      <th style="width:4%; text-align:center;">Hits@10</th>
-      <th style="width:4%; text-align:center;">Hits@50</th>
-      <th style="width:4%; text-align:center;">Hits@100</th>
-      <th style="width:4%; text-align:center;">Hits@10</th>
-      <th style="width:4%; text-align:center;">Hits@50</th>
-      <th style="width:4%; text-align:center;">Hits@100</th>
-      <th style="width:4%; text-align:center;">Hits@10</th>
-      <th style="width:4%; text-align:center;">Hits@50</th>
-      <th style="width:4%; text-align:center;">Hits@100</th>
+      <th style="text-align:center;">10</th>
+      <th style="text-align:center;">50</th>
+      <th style="text-align:center;">100</th>
+      <th style="text-align:center;">10</th>
+      <th style="text-align:center;">50</th>
+      <th style="text-align:center;">100</th>
+      <th style="text-align:center;">10</th>
+      <th style="text-align:center;">50</th>
+      <th style="text-align:center;">100</th>
+      <th style="text-align:center;">10</th>
+      <th style="text-align:center;">50</th>
+      <th style="text-align:center;">100</th>
+      <th style="text-align:center;">10</th>
+      <th style="text-align:center;">50</th>
+      <th style="text-align:center;">100</th>
     </tr>
   </thead>
   <tbody>
