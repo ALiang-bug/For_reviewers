@@ -24,21 +24,21 @@ Below is the detailed quantitative comparison.
       <th colspan="3" style="width:14%; text-align:center;">Christianity</th>
     </tr>
     <tr>
-      <th style="width:5%; text-align:center;">Hits@10</th>
-      <th style="width:5%; text-align:center;">Hits@50</th>
-      <th style="width:5%; text-align:center;">Hits@100</th>
-      <th style="width:5%; text-align:center;">Hits@10</th>
-      <th style="width:5%; text-align:center;">Hits@50</th>
-      <th style="width:5%; text-align:center;">Hits@100</th>
-      <th style="width:5%; text-align:center;">Hits@10</th>
-      <th style="width:5%; text-align:center;">Hits@50</th>
-      <th style="width:5%; text-align:center;">Hits@100</th>
-      <th style="width:5%; text-align:center;">Hits@10</th>
-      <th style="width:5%; text-align:center;">Hits@50</th>
-      <th style="width:5%; text-align:center;">Hits@100</th>
-      <th style="width:5%; text-align:center;">Hits@10</th>
-      <th style="width:5%; text-align:center;">Hits@50</th>
-      <th style="width:5%; text-align:center;">Hits@100</th>
+      <th style="width:4%; text-align:center;">Hits@10</th>
+      <th style="width:4%; text-align:center;">Hits@50</th>
+      <th style="width:4%; text-align:center;">Hits@100</th>
+      <th style="width:4%; text-align:center;">Hits@10</th>
+      <th style="width:4%; text-align:center;">Hits@50</th>
+      <th style="width:4%; text-align:center;">Hits@100</th>
+      <th style="width:4%; text-align:center;">Hits@10</th>
+      <th style="width:4%; text-align:center;">Hits@50</th>
+      <th style="width:4%; text-align:center;">Hits@100</th>
+      <th style="width:4%; text-align:center;">Hits@10</th>
+      <th style="width:4%; text-align:center;">Hits@50</th>
+      <th style="width:4%; text-align:center;">Hits@100</th>
+      <th style="width:4%; text-align:center;">Hits@10</th>
+      <th style="width:4%; text-align:center;">Hits@50</th>
+      <th style="width:4%; text-align:center;">Hits@100</th>
     </tr>
   </thead>
   <tbody>
@@ -144,21 +144,21 @@ Below is the detailed quantitative comparison.
       <th colspan="3" style="width:14%; text-align:center;">Christianity</th>
     </tr>
     <tr>
-      <th style="width:5%; text-align:center;">MAP@10</th>
-      <th style="width:5%; text-align:center;">MAP@50</th>
-      <th style="width:5%; text-align:center;">MAP@100</th>
-      <th style="width:5%; text-align:center;">MAP@10</th>
-      <th style="width:5%; text-align:center;">MAP@50</th>
-      <th style="width:5%; text-align:center;">MAP@100</th>
-      <th style="width:5%; text-align:center;">MAP@10</th>
-      <th style="width:5%; text-align:center;">MAP@50</th>
-      <th style="width:5%; text-align:center;">MAP@100</th>
-      <th style="width:5%; text-align:center;">MAP@10</th>
-      <th style="width:5%; text-align:center;">MAP@50</th>
-      <th style="width:5%; text-align:center;">MAP@100</th>
-      <th style="width:5%; text-align:center;">MAP@10</th>
-      <th style="width:5%; text-align:center;">MAP@50</th>
-      <th style="width:5%; text-align:center;">MAP@100</th>
+      <th style="width:4%; text-align:center;">MAP@10</th>
+      <th style="width:4%; text-align:center;">MAP@50</th>
+      <th style="width:4%; text-align:center;">MAP@100</th>
+      <th style="width:4%; text-align:center;">MAP@10</th>
+      <th style="width:4%; text-align:center;">MAP@50</th>
+      <th style="width:4%; text-align:center;">MAP@100</th>
+      <th style="width:4%; text-align:center;">MAP@10</th>
+      <th style="width:4%; text-align:center;">MAP@50</th>
+      <th style="width:4%; text-align:center;">MAP@100</th>
+      <th style="width:4%; text-align:center;">MAP@10</th>
+      <th style="width:4%; text-align:center;">MAP@50</th>
+      <th style="width:4%; text-align:center;">MAP@100</th>
+      <th style="width:4%; text-align:center;">MAP@10</th>
+      <th style="width:4%; text-align:center;">MAP@50</th>
+      <th style="width:4%; text-align:center;">MAP@100</th>
     </tr>
   </thead>
   <tbody>
