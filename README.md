@@ -133,8 +133,7 @@ Below is the detailed quantitative comparison.
   </tbody>
 </table>
 
-<div style="width:85%; overflow-x:auto;">
-<table>
+<table style="width:85%; table-layout:fixed; border-collapse:collapse;">
   <thead>
     <tr>
       <th rowspan="2" align="center" style="width:10%;">Models</th>
