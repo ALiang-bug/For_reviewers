@@ -462,6 +462,7 @@ Below is the detailed quantitative comparison.
 
 #### 3.1 Parameters Analysis(Add Pthreshold)
 The figure below illustrates the parameter sensitivity of our proposed method on the Twitter and Douban datasets. We investigate the impact of six key hyperparameters on the model's performance, measured by Hit@10, Hit@50, and Hit@100.
+
 <img src="./pic/Hit_para_analysis_new.png" width="85%" alt="Baseline Comparison Trend" />
 <img src="./pic/Map_para_analysis_new.png" width="85%" alt="Baseline Comparison Trend" />
 
