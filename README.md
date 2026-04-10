@@ -257,8 +257,8 @@ Below is the detailed quantitative comparison.
 #### 3.1 Parameters Analysis(Add Pthreshold)
 The figure below illustrates the parameter sensitivity of our proposed method on the Twitter and Douban datasets. We investigate the impact of six key hyperparameters on the model's performance, measured by Hit@10, Hit@50, and Hit@100.
 
-<img src="./pic/Hit_para_analysis_new.png" width="95%" alt="Baseline Comparison Trend" />
-<img src="./pic/Map_para_analysis_new.png" width="95%" alt="Baseline Comparison Trend" />
+<img src="pic/Hit_para_analysis_new.png" width="95%" alt="Baseline Comparison Trend" />
+<img src="pic/Map_para_analysis_new.png" width="95%" alt="Baseline Comparison Trend" />
 
 #### 3.2 Multi-scale Cas Latent Cohesion Analysis
 The figures above provide a 2D visualization (e.g., via t-SNE) of the learned latent space representations for multi-scale information cascades. 
@@ -269,12 +269,12 @@ To evaluate the discriminative power of our representations, we map both long ca
     <td style="border: none; width: 42%;">
       <strong style="font-size: 16px;">Twitter Dataset</strong>
       <br><br>
-      <img src="./pic/tsne_final_debug_twitter.png" width="95%" alt="Twitter t-SNE" />
+      <img src="pic/tsne_final_debug_twitter.png" width="95%" alt="Twitter t-SNE" />
     </td>
     <td style="border: none; width: 42%;">
       <strong style="font-size: 16px;">Douban Dataset</strong>
       <br><br>
-      <img src="./pic/tsne_final_debug_douban.png" width="95%" alt="Douban t-SNE" />
+      <img src="pic/tsne_final_debug_douban.png" width="95%" alt="Douban t-SNE" />
     </td>
   </tr>
 </table>
